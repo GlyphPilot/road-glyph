@@ -4,3 +4,11 @@
 
 # Local assistant/editor settings
 .claude/
+
+# Large model checkpoints
+pretrained/checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
