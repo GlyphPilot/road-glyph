@@ -71,16 +71,28 @@ conda activate roadglyph
 
 The pretrained V3 checkpoint and ONNX model are hosted on HuggingFace:
 
-```
-[HuggingFace link — to be released upon paper acceptance]
+**[GlyphPilot/road-glyph](https://huggingface.co/GlyphPilot/road-glyph)**
+
+| File | Description |
+|------|-------------|
+| `checkpoints/best.ckpt/checkpoint/mp_rank_00_model_states.pt` | PyTorch checkpoint (DeepSpeed ZeRO Stage 2, 589 MB) |
+| `road_glyph_fp32_wp64_op15_v3.onnx` | ONNX model for real-vehicle deployment (1.2 GB) |
+
+### Download checkpoint
+
+```bash
+pip install huggingface_hub
+python3 -c "
+from huggingface_hub import hf_hub_download
+hf_hub_download(
+    repo_id='GlyphPilot/road-glyph',
+    filename='checkpoints/best.ckpt/checkpoint/mp_rank_00_model_states.pt',
+    local_dir='pretrained',
+)
+"
 ```
 
-Download and place the checkpoint at:
-```
-pretrained/checkpoints/best.ckpt/checkpoint/mp_rank_00_model_states.pt
-```
-
-The checkpoint was trained with DeepSpeed ZeRO Stage 2. The `pretrained/` directory already contains the required `latest` pointer file.
+The `pretrained/` directory already contains the required `latest` pointer file for DeepSpeed checkpoint loading.
 
 ---
 
