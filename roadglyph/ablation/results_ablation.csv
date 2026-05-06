@@ -1,0 +1,10 @@
+tag,run_name,driving_score,success_rate,efficiency,comfortness,delta_wp_spd,delta_wp_rt,delta_wp_sum,desc
+Full,baseline_seed42,,,,,1.0203876214109187,0.3635199956145243,1.383907617025443,"Full model (two-pass ACM, GT conditioning, grad mask) — inference delta_wp"
+A1,A1_no_acm_seed42,,,,,0.0,0.0,0.0,"A1: No-ACM (inference override) — force gamma=1, beta=0"
+A2,A2_token_agnostic_seed42,,,,,0.0,0.0,0.0,A2: Token-agnostic ACM (inference override) — e_lat=e_lon=0
+A1*,ablate_A1_no_acm_seed42,,,,,,,,"A1: No-ACM (re-trained) — gamma=1, beta=0 (heads and loss retained)"
+A2*,ablate_A2_token_agnostic_seed42,,,,,,,,"A2: Token-agnostic ACM (re-trained) — e_lat, e_lon=0"
+B1,ablate_B1_single_pass_seed42,,,,,,,,"B1: Single-pass — Pass-1 removed, lon head uses v_pool directly"
+B2,ablate_B2_lon_shortcut_seed42,,,,,,,,B2: Lon-head shortcut — lon head input e_ctx → v_pool
+C1,ablate_C1_no_gt_seed42,,,,,,,,C1: No GT-conditioning — teacher forcing fully disabled
+C2,ablate_C2_no_grad_mask_seed42,,,,,,,,C2: No grad mask — detach removed for unlabeled samples

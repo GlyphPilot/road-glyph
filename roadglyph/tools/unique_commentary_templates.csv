@@ -1,0 +1,930 @@
+count,route_action,speed_action,speed_reason,commentary_template
+202138,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to stay behind the <OBJECT>.
+201816,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+100200,FOLLOW_ROUTE,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Follow the route. Remain stopped to stay behind the <OBJECT> that is stopped because of a red traffic light.
+99630,FOLLOW_ROUTE,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Follow the route. Remain stopped to stay behind the <OBJECT> at <DISTANCE> that is stopped because of a red traffic light.
+91151,FOLLOW_ROUTE,INCREASE_SPEED,NONE_OR_UNKNOWN,Follow the route. Accelerate to drive with the target speed.
+86986,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to follow the <OBJECT> in <DISTANCE>.
+86962,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to follow the <OBJECT>.
+81678,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+81451,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate to stay behind the <OBJECT>.
+80455,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to stay behind the <OBJECT>.
+80293,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+67231,FOLLOW_ROUTE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Follow the route. Maintain your current speed.
+53761,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Follow the route. Maintain the reduced speed.
+49947,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped due to the <OBJECT>.
+49729,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped due to the <OBJECT> in <DISTANCE>.
+38227,FOLLOW_ROUTE,SLOW_DOWN,NONE_OR_UNKNOWN,Follow the route. Decelerate to drive with the target speed.
+31063,GO_AROUND,UNKNOWN,ACCIDENT,Avoid the accident on your lane. Wait for a gap in the traffic before changing lanes to the lane with oncoming traffic.
+22832,GO_AROUND,UNKNOWN,VEHICLE,Go around the <OBJECT>. Wait for a gap in the traffic before changing lanes to the lane with oncoming traffic.
+18652,OTHER,REMAIN_STOPPED,VEHICLE,Turn right. Remain stopped due to the <OBJECT> in <DISTANCE>.
+18577,OTHER,REMAIN_STOPPED,VEHICLE,Turn right. Remain stopped due to the <OBJECT>.
+15302,FOLLOW_ROUTE,INCREASE_SPEED,NONE_OR_UNKNOWN,Follow the route. Accelerate to reach the speed limit.
+14080,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Follow the route. Maintain the reduced speed to drive according to the speed limit.
+12978,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate due to the <OBJECT>.
+12940,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed to drive through the junction.
+12855,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate due to the <OBJECT> in <DISTANCE>.
+12366,WAIT_GAP,UNKNOWN,VEHICLE,Steer clear of the parked vehicle. Wait for a gap in the traffic before changing lanes.
+11898,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction.
+10873,WAIT_GAP,UNKNOWN,VEHICLE,Steer clear of the parked vehicle. Wait for a gap in the traffic before changing lanes to the lane with oncoming traffic.
+10824,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate due to the <OBJECT> intersecting your path.
+10494,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn left. Remain stopped to stay behind the <OBJECT>.
+10225,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn left. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+10022,WAIT_GAP,UNKNOWN,NONE_OR_UNKNOWN,Exit the parking lot. Wait for a gap in the traffic before changing lanes.
+8597,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_RED,Follow the route. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+8455,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_RED,Follow the route. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+8071,OTHER,REMAIN_STOPPED,VEHICLE,Turn left. Remain stopped due to the <OBJECT>.
+7945,OTHER,REMAIN_STOPPED,VEHICLE,Turn left. Remain stopped due to the <OBJECT> in <DISTANCE>.
+7822,FOLLOW_ROUTE,SLOW_DOWN,NONE_OR_UNKNOWN,Follow the route. Decelerate to drive according to the speed limit.
+7698,GO_AROUND,INCREASE_SPEED,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Accelerate to drive with the target speed.
+6327,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction.
+5748,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Accelerate to follow the <OBJECT>.
+5525,GO_AROUND,UNKNOWN,VEHICLE,Avoid the vehicle that is opening its door. Wait for a gap in the traffic before changing lanes to the lane with oncoming traffic.
+5520,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Accelerate to follow the <OBJECT> in <DISTANCE>.
+5379,FOLLOW_ROUTE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+5363,OTHER,MAINTAIN_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain your current speed.
+5267,FOLLOW_ROUTE,SLOW_DOWN,NONE_OR_UNKNOWN,Follow the route. Decelerate.
+5163,FOLLOW_ROUTE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+4986,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Follow the route. Maintain the reduced speed to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+4938,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Follow the route. Maintain the reduced speed to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+4752,GO_AROUND,UNKNOWN,CONSTRUCTION,Go around the construction site. Wait for a gap in the traffic before changing lanes to the lane with oncoming traffic.
+4651,FOLLOW_ROUTE,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain your current speed because the traffic light is green.
+4598,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+4381,OVERTAKE,UNKNOWN,NONE_OR_UNKNOWN,Overtake the bikes on your lane. Wait for a gap in the traffic before changing lanes.
+4028,GO_AROUND,SLOW_DOWN,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Decelerate to drive with the target speed.
+3919,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped due to the <OBJECT> intersecting your path.
+3905,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+3888,GO_AROUND,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Maintain your current speed.
+3826,FOLLOW_ROUTE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Accelerate because the traffic light is green.
+3819,GO_AROUND,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate to avoid the <OBJECT> that is crossing the road.
+3615,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to follow the <OBJECT>. Pay attention to the walker and brake if necessary.
+3515,OTHER,INCREASE_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Accelerate to drive with the target speed.
+3503,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to follow the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+3352,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Accelerate to follow the <OBJECT>.
+3301,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Accelerate to follow the <OBJECT> in <DISTANCE>.
+3291,GO_AROUND,UNKNOWN,CONSTRUCTION,Go around the construction site. Wait for a gap in the traffic before changing lanes.
+3253,GO_AROUND,UNKNOWN,ACCIDENT,Avoid the accident on your lane. Wait for a gap in the traffic before changing lanes.
+3137,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+3058,GO_AROUND,INCREASE_SPEED,ACCIDENT,"Avoid the accident on your lane. Accelerate to change to the oncoming lane, as the gap is big enough."
+3021,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Prepare to do a lane change. Accelerate to drive with the target speed.
+2916,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+2885,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed due to the <OBJECT>.
+2826,GO_AROUND,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to avoid the <OBJECT> that is crossing the road.
+2698,OTHER,INCREASE_SPEED,VEHICLE,"Steer clear of the parked vehicle. Accelerate to change to the oncoming lane, as the gap is big enough."
+2539,OVERTAKE,INCREASE_SPEED,NONE_OR_UNKNOWN,Stay on your current (oncoming) lane to overtake the bikes on your lane. Accelerate to drive with the target speed.
+2493,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,"Go around the construction site. Accelerate to change to the oncoming lane, as the gap is big enough."
+2424,GO_AROUND,INCREASE_SPEED,ACCIDENT,Stay on your current (oncoming) lane to avoid the accident on your lane. Accelerate to drive with the target speed.
+2419,OTHER,SLOW_DOWN,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Decelerate to drive with the target speed.
+2372,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate since you cleared the <OBJECT>.
+2354,GO_AROUND,INCREASE_SPEED,VEHICLE,"Avoid the vehicle that is opening its door. Accelerate to change to the oncoming lane, as the gap is big enough."
+2271,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn left. Accelerate to reach the speed limit.
+2227,FOLLOW_ROUTE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+2168,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Follow the route. Decelerate because the traffic light is green.
+2142,OVERTAKE,INCREASE_SPEED,NONE_OR_UNKNOWN,"Overtake the bikes on your lane. Accelerate to change to the oncoming lane, as the gap is big enough."
+2120,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn right. Accelerate to reach the speed limit.
+2117,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn right. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+2104,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate because the other vehicles are stopped at the junction and the junction is clear.
+2079,FOLLOW_ROUTE,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain your current speed to stay behind the <OBJECT>.
+2066,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn right. Decelerate to stay behind the <OBJECT>.
+2058,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Accelerate to drive with the target speed.
+2029,OTHER,INCREASE_SPEED,VEHICLE,"Steer clear of the parked vehicle. Accelerate to change to the neighbouring lane, as the gap is big enough."
+2019,OTHER,SLOW_DOWN,VEHICLE,Turn right. Decelerate due to the <OBJECT>.
+2008,GO_AROUND,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Maintain the reduced speed.
+1961,GIVE_WAY,MAINTAIN_REDUCED_SPEED,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Maintain the reduced speed.
+1959,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+1948,OTHER,SLOW_DOWN,VEHICLE,Turn right. Decelerate due to the <OBJECT> in <DISTANCE>.
+1947,FOLLOW_ROUTE,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain your current speed to stay behind the <OBJECT> in <DISTANCE>.
+1937,FOLLOW_ROUTE,MAINTAIN_SPEED,JUNCTION_NOTICE,Follow the route. Maintain your current speed to drive through the junction.
+1926,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Maintain the reduced speed to stay behind the <OBJECT>.
+1897,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+1883,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+1878,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+1877,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the <OBJECT>.
+1848,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,"Go around the construction site. Accelerate to change to the neighbouring lane, as the gap is big enough."
+1841,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the <OBJECT> in <DISTANCE>.
+1782,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain the reduced speed to stay behind the <OBJECT>.
+1779,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+1766,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+1684,OTHER,REMAIN_STOPPED,VEHICLE,Turn right. Remain stopped due to the <OBJECT> intersecting your path.
+1589,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+1551,OTHER,SLOW_DOWN,VEHICLE,Turn left. Decelerate due to the <OBJECT> intersecting your path.
+1545,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Maintain the reduced speed to stay behind the <OBJECT>.
+1544,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+1540,FOLLOW_ROUTE,MAINTAIN_SPEED,JUNCTION_NOTICE,Follow the route. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+1474,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+1437,FOLLOW_ROUTE,STOP,TRAFFIC_LIGHT_RED,Follow the route. Stop now to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+1435,OVERTAKE,INCREASE_SPEED,NONE_OR_UNKNOWN,"Overtake the bikes on your lane. Accelerate to change to the neighbouring lane, as the gap is big enough."
+1425,FOLLOW_ROUTE,STOP,TRAFFIC_LIGHT_RED,Follow the route. Stop now to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+1408,GO_AROUND,INCREASE_SPEED,ACCIDENT,"Avoid the accident on your lane. Accelerate to change to the neighbouring lane, as the gap is big enough."
+1384,DEVIATION_DURING,INCREASE_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to exit the parking lot. Accelerate to drive with the target speed.
+1360,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Accelerate to drive through the junction.
+1353,OTHER,INCREASE_SPEED,VEHICLE,Prepare to steer clear of the parked vehicle. Accelerate to drive with the target speed.
+1337,OVERTAKE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Maintain your current speed.
+1282,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn left. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+1251,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+1249,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to drive closer to the stationary <OBJECT>.
+1245,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+1238,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn left. Decelerate to stay behind the <OBJECT>.
+1219,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to drive closer to the stationary <OBJECT> at <DISTANCE>.
+1178,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now to stay behind the <OBJECT>.
+1177,OTHER,SLOW_DOWN,VEHICLE,"Steer clear of the parked vehicle. Decelerate to change to the oncoming lane, as the gap is big enough."
+1150,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now to stay behind the <OBJECT> in <DISTANCE>.
+1122,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1057,GO_AROUND,SLOW_DOWN,ACCIDENT,"Avoid the accident on your lane. Decelerate to change to the oncoming lane, as the gap is big enough."
+1042,GIVE_WAY,INCREASE_SPEED,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Accelerate to drive with the target speed.
+1037,OTHER,SLOW_DOWN,VEHICLE,Prepare to do a lane change. Decelerate due to the <OBJECT> in <DISTANCE>.
+1034,OVERTAKE,INCREASE_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Accelerate to reach the speed limit.
+1021,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+1006,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed due to the <OBJECT> intersecting your path.
+987,OVERTAKE,INCREASE_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Accelerate to drive with the target speed.
+979,OTHER,SLOW_DOWN,VEHICLE,Prepare to do a lane change. Decelerate due to the <OBJECT>.
+977,OTHER,SLOW_DOWN,VEHICLE,Prepare to steer clear of the parked vehicle. Decelerate to drive with the target speed.
+974,OVERTAKE,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Remain stopped to stay behind the <OBJECT> that is stopped because of a red traffic light.
+967,GO_AROUND,INCREASE_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Accelerate to drive with the target speed.
+951,OVERTAKE,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Remain stopped to stay behind the <OBJECT> at <DISTANCE> that is stopped because of a red traffic light.
+949,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+945,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Decelerate to stay behind the <OBJECT>.
+944,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+931,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate due to the <OBJECT> intersecting your path.
+918,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Accelerate to drive with the target speed.
+906,OTHER,SLOW_DOWN,VEHICLE,Turn left. Decelerate due to the <OBJECT>.
+906,GO_AROUND,MAINTAIN_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Maintain your current speed.
+893,OTHER,SLOW_DOWN,VEHICLE,Turn left. Decelerate due to the <OBJECT> in <DISTANCE>.
+889,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Prepare to go around the construction site. Decelerate to drive with the target speed.
+886,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Follow the route. Decelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+886,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Turn left. Maintain your current speed to drive through the junction.
+872,GO_AROUND,SLOW_DOWN,VEHICLE,"Avoid the vehicle that is opening its door. Decelerate to change to the oncoming lane, as the gap is big enough."
+834,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn left. Accelerate to drive with the target speed.
+834,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Remain stopped to stay behind the <OBJECT> that is stopped because of a red traffic light.
+825,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+810,GO_AROUND,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to avoid the <OBJECT> that is crossing the road.
+806,OTHER,MAINTAIN_SPEED,CONSTRUCTION,Prepare to steer clear of the oncoming traffic entering your lane due to the construction cones. Maintain your current speed.
+790,GO_AROUND,SLOW_DOWN,VEHICLE,"Go around the <OBJECT>. Decelerate to change to the oncoming lane, as the gap is big enough."
+784,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Remain stopped to stay behind the <OBJECT> at <DISTANCE> that is stopped because of a red traffic light.
+774,OTHER,SLOW_DOWN,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+760,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+748,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear.
+743,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn right. Accelerate to drive with the target speed.
+741,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Accelerate to follow the <OBJECT> in <DISTANCE>.
+731,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+730,GO_AROUND,SLOW_DOWN,ACCIDENT,Prepare to avoid the accident on your lane. Decelerate to drive with the target speed.
+727,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Prepare to do a lane change. Maintain the reduced speed.
+703,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Accelerate to follow the <OBJECT>.
+690,OTHER,SLOW_DOWN,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Decelerate to stay behind the <OBJECT>.
+673,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+669,OTHER,REMAIN_STOPPED,VEHICLE,Turn right. Remain stopped due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+662,OTHER,REMAIN_STOPPED,VEHICLE,Turn right. Remain stopped due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+661,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+657,OVERTAKE,SLOW_DOWN,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Decelerate to drive with the target speed.
+647,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+636,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear.
+621,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+619,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive through the junction.
+595,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Prepare to do a lane change. Decelerate to drive with the target speed.
+594,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now due to the <OBJECT> in <DISTANCE>.
+579,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+577,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now due to the <OBJECT>.
+574,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn left. Decelerate.
+565,DEVIATION_DURING,INCREASE_SPEED,VEHICLE,Stay on your current lane to steer clear of the parked vehicle. Accelerate to drive with the target speed.
+558,OVERTAKE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed.
+554,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+554,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Turn right. Remain stopped to stay behind the <OBJECT> at <DISTANCE> that is stopped because of a red traffic light.
+547,GO_AROUND,MAINTAIN_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Maintain your current speed.
+545,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Turn left. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+544,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate because the other vehicles are stopped at the junction and the junction is clear.
+544,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Turn right. Remain stopped to stay behind the <OBJECT> that is stopped because of a red traffic light.
+538,OTHER,REMAIN_STOPPED,VEHICLE,Turn left. Remain stopped due to the <OBJECT> intersecting your path.
+533,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+518,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain the reduced speed because the traffic light is green.
+517,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+516,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,"Exit the parking lot. Accelerate to change to the neighbouring lane, as the gap is big enough."
+504,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn right. Remain stopped to stay behind the <OBJECT>.
+502,FOLLOW_ROUTE,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain your current speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+502,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed to drive through the junction.
+494,FOLLOW_ROUTE,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain your current speed due to the <OBJECT>.
+494,FOLLOW_ROUTE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Follow the route. Maintain your current speed to drive according to the speed limit.
+492,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Turn left. Remain stopped to stay behind the <OBJECT> at <DISTANCE> that is stopped because of a red traffic light.
+489,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain the reduced speed.
+489,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Decelerate to stay behind the <OBJECT>.
+476,GO_AROUND,MAINTAIN_SPEED,CONSTRUCTION,Prepare to go around the construction site. Maintain your current speed.
+463,GO_AROUND,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Prepare to avoid the vehicle that is opening its door. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+461,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn right. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+459,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to steer clear of the parked vehicle. Maintain the reduced speed.
+459,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Turn left. Remain stopped to stay behind the <OBJECT> that is stopped because of a red traffic light.
+458,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+454,WAIT_GAP,UNKNOWN,NONE_OR_UNKNOWN, Wait for a gap in the traffic before changing lanes.
+450,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate to drive closer to the <OBJECT> in <DISTANCE>.
+449,FOLLOW_ROUTE,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain your current speed due to the <OBJECT> in <DISTANCE>.
+445,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction as the other vehicles are stopped at the junction and the junction is clear. Pay attention to the <OBJECT> on the exit of the junction.
+445,GO_AROUND,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to avoid the <OBJECT> that is crossing the road.
+439,GO_AROUND,REMAIN_STOPPED,CONSTRUCTION,Stay on your current lane to go around the construction site. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+435,GO_AROUND,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Prepare to avoid the vehicle that is opening its door. Decelerate to stay behind the <OBJECT>.
+432,GO_AROUND,SLOW_DOWN,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Decelerate to drive with the target speed.
+421,GO_AROUND,MAINTAIN_SPEED,CONSTRUCTION,"Go around the construction site. Maintain your current speed to change to the neighbouring lane, as the gap is big enough."
+417,OVERTAKE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+416,GO_AROUND,REMAIN_STOPPED,CONSTRUCTION,Stay on your current lane to go around the construction site. Remain stopped to stay behind the <OBJECT>.
+411,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+403,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate to drive closer to the <OBJECT>.
+397,OVERTAKE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed to stay behind the <OBJECT>.
+387,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Maintain the reduced speed.
+381,OVERTAKE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+374,OTHER,SLOW_DOWN,VEHICLE,Turn right. Decelerate due to the <OBJECT> intersecting your path.
+369,OVERTAKE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to overtake the bikes on your lane. Accelerate because the traffic light is green.
+364,OVERTAKE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Decelerate to stay behind the <OBJECT>.
+361,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed to drive through the junction.
+360,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction. Pay attention to the walker and brake if necessary.
+354,OTHER,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Prepare to do a lane change. Maintain your current speed.
+350,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+347,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,"Give way to the emergency vehicle. Decelerate to change to the neighbouring lane, as the gap is big enough."
+342,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Stay on your current lane to go around the construction site. Decelerate to drive with the target speed.
+338,GO_AROUND,SLOW_DOWN,ACCIDENT,Prepare to avoid the accident on your lane. Decelerate to stay behind the <OBJECT>.
+335,GIVE_WAY,MAINTAIN_REDUCED_SPEED,EMERGENCY_VEHICLE,Prepare to give way to the emergency vehicle. Maintain the reduced speed.
+333,GO_AROUND,SLOW_DOWN,ACCIDENT,Prepare to avoid the accident on your lane. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+325,FOLLOW_ROUTE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+311,GO_AROUND,SLOW_DOWN,CONSTRUCTION,"Go around the construction site. Decelerate to change to the oncoming lane, as the gap is big enough."
+297,FOLLOW_ROUTE,INCREASE_SPEED,NONE_OR_UNKNOWN,Follow the route. Accelerate to reach the speed limit. Pay attention to the walker and brake if necessary.
+297,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Stay on your current (oncoming) lane to avoid the accident on your lane. Maintain the reduced speed.
+295,GIVE_WAY,MAINTAIN_REDUCED_SPEED,EMERGENCY_VEHICLE,"Give way to the emergency vehicle. Maintain the reduced speed to change to the neighbouring lane, as the gap is big enough."
+293,FOLLOW_ROUTE,SLOW_DOWN,NONE_OR_UNKNOWN,Follow the route. Decelerate to drive with the target speed. Pay attention to the walker and brake if necessary.
+292,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,Prepare to give way to the emergency vehicle. Decelerate to drive with the target speed.
+290,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+286,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+285,GO_AROUND,SLOW_DOWN,VEHICLE,Prepare to go around the <OBJECT>. Decelerate due to the <OBJECT> in <DISTANCE>.
+284,GO_AROUND,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+280,GO_AROUND,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Maintain your current speed because the traffic light is green.
+276,GO_AROUND,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to avoid the vehicle that is opening its door. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+276,GO_AROUND,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Decelerate to stay behind the <OBJECT>.
+275,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+274,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,"Go around the construction site. Maintain the reduced speed to change to the neighbouring lane, as the gap is big enough."
+273,OVERTAKE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Accelerate to follow the <OBJECT>.
+272,GO_AROUND,SLOW_DOWN,VEHICLE,Prepare to go around the <OBJECT>. Decelerate due to the <OBJECT>.
+270,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+270,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to do a lane change. Maintain the reduced speed to avoid the <OBJECT> that is crossing the road.
+269,OVERTAKE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Accelerate to follow the <OBJECT> in <DISTANCE>.
+268,GO_AROUND,INCREASE_SPEED,ACCIDENT,Prepare to avoid the accident on your lane. Accelerate to drive with the target speed.
+266,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+262,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,"Steer clear of the parked vehicle. Maintain the reduced speed to change to the neighbouring lane, as the gap is big enough."
+258,GO_AROUND,MAINTAIN_SPEED,ACCIDENT,"Avoid the accident on your lane. Maintain your current speed to change to the neighbouring lane, as the gap is big enough."
+252,GO_AROUND,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to avoid the vehicle that is opening its door. Maintain the reduced speed to stay behind the <OBJECT>.
+249,GO_AROUND,INCREASE_SPEED,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Accelerate to reach the speed limit.
+248,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed due to the <OBJECT>.
+247,GO_AROUND,MAINTAIN_SPEED,ACCIDENT,Prepare to avoid the accident on your lane. Maintain your current speed.
+245,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Decelerate to drive with the target speed.
+241,OVERTAKE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Remain stopped to stay behind the <OBJECT>.
+238,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Prepare to go around the construction site. Decelerate to stay behind the <OBJECT>.
+238,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+236,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Maintain the reduced speed.
+230,FOLLOW_ROUTE,REMAIN_STOPPED,NONE_OR_UNKNOWN,Follow the route. Remain stopped to drive with the target speed.
+227,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+226,OTHER,REMAIN_STOPPED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Remain stopped to stay behind the <OBJECT>.
+224,FOLLOW_ROUTE,INCREASE_SPEED,NONE_OR_UNKNOWN,Follow the route. Accelerate to drive with the target speed. Pay attention to the walker and brake if necessary.
+224,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Prepare to go around the construction site. Maintain the reduced speed.
+222,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Prepare to go around the construction site. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+214,OTHER,MAINTAIN_SPEED,VEHICLE,Prepare to steer clear of the parked vehicle. Maintain your current speed.
+214,GO_AROUND,SLOW_DOWN,CONSTRUCTION,"Go around the construction site. Decelerate to change to the neighbouring lane, as the gap is big enough."
+208,GO_AROUND,INCREASE_SPEED,VEHICLE,"Go around the <OBJECT>. Accelerate to change to the oncoming lane, as the gap is big enough."
+207,OTHER,INCREASE_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Accelerate to follow the <OBJECT>.
+205,GIVE_WAY,INCREASE_SPEED,EMERGENCY_VEHICLE,"Give way to the emergency vehicle. Accelerate to change to the neighbouring lane, as the gap is big enough."
+205,OTHER,STOP,VEHICLE,Turn right. Stop now due to the <OBJECT> in <DISTANCE>.
+201,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN," Accelerate to change to the neighbouring lane, as the gap is big enough."
+201,OVERTAKE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+200,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+198,OTHER,REMAIN_STOPPED,VEHICLE,Prepare to do a lane change. Remain stopped due to the <OBJECT> intersecting your path.
+197,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Prepare to avoid the accident on your lane. Maintain the reduced speed.
+197,GIVE_WAY,UNKNOWN,EMERGENCY_VEHICLE,Give way to the emergency vehicle. Wait for a gap in the traffic before changing lanes.
+196,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain the reduced speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+196,OTHER,INCREASE_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Accelerate to follow the <OBJECT> in <DISTANCE>.
+195,OVERTAKE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Stay on your current (oncoming) lane to overtake the bikes on your lane. Maintain the reduced speed.
+195,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+192,OTHER,STOP,VEHICLE,Turn right. Stop now due to the <OBJECT>.
+189,GO_AROUND,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Accelerate because the traffic light is green.
+186,OTHER,REMAIN_STOPPED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+186,DEVIATION_DURING,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to exit the parking lot. Accelerate because the traffic light is green.
+184,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the stationary <OBJECT> at <DISTANCE>.
+184,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+182,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the stationary <OBJECT>.
+182,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Prepare to go around the construction site. Accelerate to drive with the target speed.
+180,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed due to the <OBJECT>.
+179,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+179,GO_AROUND,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+176,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+174,OTHER,SLOW_DOWN,VEHICLE,"Steer clear of the parked vehicle. Decelerate to change to the neighbouring lane, as the gap is big enough."
+173,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,"Avoid the accident on your lane. Maintain the reduced speed to change to the neighbouring lane, as the gap is big enough."
+171,OTHER,INCREASE_SPEED,VEHICLE,Turn left. Accelerate since you cleared the <OBJECT>.
+165,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed due to the <OBJECT> intersecting your path.
+164,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate since you cleared the <OBJECT>.
+160,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+159,GO_AROUND,SLOW_DOWN,ACCIDENT,"Avoid the accident on your lane. Decelerate to change to the neighbouring lane, as the gap is big enough."
+159,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+159,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Accelerate to follow the <OBJECT>. Pay attention to the walker and brake if necessary.
+158,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Follow the route. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+157,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+156,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate due to the <OBJECT> intersecting your path.
+155,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+154,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear.
+152,OTHER,INCREASE_SPEED,CONSTRUCTION,Prepare to steer clear of the oncoming traffic entering your lane due to the construction cones. Accelerate to drive with the target speed.
+152,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Accelerate to follow the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+151,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,"Avoid the vehicle that is opening its door. Maintain the reduced speed to change to the oncoming lane, as the gap is big enough."
+147,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+147,GO_AROUND,SLOW_DOWN,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+145,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+144,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+142,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction as the other vehicles are stopped at the junction and the junction is clear. Pay attention to the <OBJECT> on the exit of the junction.
+141,GO_AROUND,MAINTAIN_SPEED,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Maintain your current speed.
+141,FOLLOW_ROUTE,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+138,OVERTAKE,SLOW_DOWN,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Decelerate to drive according to the speed limit.
+135,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Maintain the reduced speed.
+135,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+134,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn right. Decelerate.
+133,GO_AROUND,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Return to your original route after avoiding the obstacle. Remain stopped to stay behind the <OBJECT> at <DISTANCE> that is stopped because of a red traffic light.
+132,GO_AROUND,SLOW_DOWN,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Decelerate to stay behind the <OBJECT>.
+131,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Maintain the reduced speed to stay behind the <OBJECT>.
+122,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed since you cleared the <OBJECT>.
+121,GO_AROUND,MAINTAIN_SPEED,ACCIDENT,Stay on your current (oncoming) lane to avoid the accident on your lane. Maintain your current speed.
+121,GO_AROUND,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Return to your original route after avoiding the obstacle. Remain stopped to stay behind the <OBJECT> that is stopped because of a red traffic light.
+118,GO_AROUND,REMAIN_STOPPED,COLLISION_AVOIDANCE,Turn left. Remain stopped to avoid a collision with the <OBJECT>.
+117,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+115,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,"Steer clear of the parked vehicle. Maintain the reduced speed to change to the oncoming lane, as the gap is big enough."
+115,OTHER,MAINTAIN_SPEED,VEHICLE,"Steer clear of the parked vehicle. Maintain your current speed to change to the neighbouring lane, as the gap is big enough."
+113,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+113,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain the reduced speed to drive according to the speed limit.
+110,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction as . Pay attention to the <OBJECT> on the exit of the junction.
+107,OVERTAKE,SLOW_DOWN,NONE_OR_UNKNOWN,"Overtake the bikes on your lane. Decelerate to change to the neighbouring lane, as the gap is big enough."
+107,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+107,GIVE_WAY,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Stay on your current lane to give way to the emergency vehicle. Maintain the reduced speed to drive through the junction.
+106,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+104,OVERTAKE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,"Overtake the bikes on your lane. Maintain your current speed to change to the neighbouring lane, as the gap is big enough."
+103,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Stay on your current lane to go around the construction site. Decelerate to stay behind the <OBJECT>.
+103,OTHER,MAINTAIN_SPEED,VEHICLE,Turn left. Maintain your current speed due to the <OBJECT>.
+103,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Remain stopped to stay behind the <OBJECT>.
+102,OTHER,MAINTAIN_SPEED,VEHICLE,Turn left. Maintain your current speed due to the <OBJECT> in <DISTANCE>.
+102,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+102,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate because the other vehicles are stopped at the junction and the junction is clear.
+102,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Stay on your current lane to go around the construction site. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+102,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Accelerate to follow the <OBJECT>.
+101,OTHER,SLOW_DOWN,CONSTRUCTION,Prepare to steer clear of the oncoming traffic entering your lane due to the construction cones. Decelerate to drive with the target speed.
+99,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_RED,Follow the route. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light. Pay attention to the walker and brake if necessary.
+98,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+97,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the <OBJECT>. Pay attention to the walker and brake if necessary.
+97,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+96,FOLLOW_ROUTE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Accelerate because the traffic light is green. Pay attention to the walker and brake if necessary.
+95,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain your current speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+94,OVERTAKE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,"Overtake the bikes on your lane. Maintain the reduced speed to change to the neighbouring lane, as the gap is big enough."
+93,OTHER,STOP,VEHICLE,Turn left. Stop now due to the <OBJECT>.
+93,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Accelerate because the traffic light is green.
+92,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_RED,Follow the route. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light. Pay attention to the walker and brake if necessary.
+92,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Follow the route. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+91,OVERTAKE,SLOW_DOWN,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+89,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Accelerate to follow the <OBJECT> in <DISTANCE>.
+88,OVERTAKE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+88,FOLLOW_ROUTE,INCREASE_SPEED,PEDESTRIAN,Follow the route. Accelerate to drive through the junction as the other vehicles are stopped at the junction and the junction is clear. Pay attention to the pedestrian on the exit of the junction.
+86,GO_AROUND,SLOW_DOWN,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Decelerate to drive according to the speed limit.
+85,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,"Avoid the accident on your lane. Maintain the reduced speed to change to the oncoming lane, as the gap is big enough."
+85,OTHER,STOP,VEHICLE,Turn left. Stop now due to the <OBJECT> in <DISTANCE>.
+85,OVERTAKE,SLOW_DOWN,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+82,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,"Go around the <OBJECT>. Maintain the reduced speed to change to the oncoming lane, as the gap is big enough."
+81,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn right. Accelerate to reach the speed limit. Pay attention to the walker and brake if necessary.
+80,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+78,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn left. Decelerate to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+78,OTHER,REMAIN_STOPPED,VEHICLE,Turn left. Remain stopped due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+77,OTHER,INCREASE_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Accelerate to reach the speed limit.
+76,GO_AROUND,SLOW_DOWN,VEHICLE,Prepare to go around the <OBJECT>. Decelerate to drive according to the speed limit.
+75,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Prepare to do a lane change. Accelerate to reach the speed limit.
+75,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+74,OVERTAKE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+73,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Turn right. Maintain your current speed to drive through the junction.
+73,GO_AROUND,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Maintain the reduced speed to drive according to the speed limit.
+72,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+72,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+70,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to go around the <OBJECT>. Maintain the reduced speed to drive according to the speed limit.
+69,GO_AROUND,SLOW_DOWN,VEHICLE,Turn right. Decelerate to avoid the <OBJECT> that is crossing the road.
+69,OTHER,SLOW_DOWN,VEHICLE,Turn right. Decelerate due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+68,FOLLOW_ROUTE,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+68,OTHER,INCREASE_SPEED,VEHICLE,Turn left. Accelerate to drive closer to the <OBJECT>.
+68,FOLLOW_ROUTE,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate since you cleared the <OBJECT>.
+68,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+67,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn left. Remain stopped to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+66,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to go around the <OBJECT>. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+66,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn left. Decelerate to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+66,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Turn left. Stop now to stay behind the <OBJECT>.
+66,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn left. Remain stopped to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+65,FOLLOW_ROUTE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Follow the route. Maintain your current speed. Pay attention to the walker and brake if necessary.
+65,OTHER,INCREASE_SPEED,VEHICLE,Turn left. Accelerate to drive closer to the <OBJECT> in <DISTANCE>.
+65,OTHER,REMAIN_STOPPED,VEHICLE,Turn left. Remain stopped due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+64,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Turn left. Stop now to stay behind the <OBJECT> in <DISTANCE>.
+64,OTHER,SLOW_DOWN,VEHICLE,Turn right. Decelerate due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+63,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to go around the <OBJECT>. Maintain the reduced speed due to the <OBJECT>.
+63,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Turn left. Decelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+62,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN," Decelerate to change to the neighbouring lane, as the gap is big enough."
+62,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Turn right. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+61,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Maintain the reduced speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+60,GO_AROUND,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Maintain the reduced speed to drive through the junction.
+59,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+59,OTHER,MAINTAIN_SPEED,NONE_OR_UNKNOWN," Maintain your current speed to change to the neighbouring lane, as the gap is big enough."
+58,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction as the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the <OBJECT> on the exit of the junction.
+57,FOLLOW_ROUTE,MAINTAIN_SPEED,JUNCTION_NOTICE,Follow the route. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+57,OVERTAKE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed to drive according to the speed limit.
+57,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+56,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Maintain the reduced speed to drive through the junction.
+56,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+56,DEVIATION_DURING,MAINTAIN_SPEED,VEHICLE,Stay on your current lane to steer clear of the parked vehicle. Maintain your current speed.
+56,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Maintain your current speed to drive through the junction.
+55,FOLLOW_ROUTE,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Follow the route. Remain stopped to stay behind the <OBJECT> that is stopped because of a red traffic light. Pay attention to the walker and brake if necessary.
+55,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+54,GIVE_WAY,INCREASE_SPEED,JUNCTION_NOTICE,Stay on your current lane to give way to the emergency vehicle. Accelerate to drive through the junction.
+54,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_RED,Return to your original route after avoiding the obstacle. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+54,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+54,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+54,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Decelerate to stay behind the <OBJECT>.
+53,GO_AROUND,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate to avoid a collision with the <OBJECT>.
+53,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+52,DEVIATION_DURING,SLOW_DOWN,VEHICLE,Stay on your current lane to steer clear of the parked vehicle. Decelerate to drive with the target speed.
+51,GO_AROUND,SLOW_DOWN,VEHICLE,Turn left. Decelerate to avoid the <OBJECT> that is crossing the road.
+50,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+50,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+50,GO_AROUND,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Accelerate to follow the <OBJECT>.
+50,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Turn left. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+48,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+48,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+48,OTHER,SLOW_DOWN,VEHICLE,Prepare to do a lane change. Decelerate due to the <OBJECT> intersecting your path.
+47,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to do a lane change. Maintain the reduced speed due to the <OBJECT>.
+47,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn right. Accelerate to drive with the target speed. Pay attention to the walker and brake if necessary.
+46,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Follow the route. Maintain the reduced speed to stay behind the <OBJECT> that is slowing down because of a red traffic light. Pay attention to the walker and brake if necessary.
+46,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain the reduced speed to stay behind the <OBJECT>.
+46,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+46,OTHER,REMAIN_STOPPED,VEHICLE,Prepare to do a lane change. Remain stopped due to the <OBJECT>.
+45,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed to drive through the junction. Pay attention to the walker and brake if necessary.
+45,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Accelerate to follow the <OBJECT>. Pay attention to the walker and brake if necessary.
+44,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+44,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+44,GO_AROUND,REMAIN_STOPPED,VEHICLE,Turn right. Remain stopped to avoid the <OBJECT> that is crossing the road.
+43,GO_AROUND,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Accelerate to follow the <OBJECT> in <DISTANCE>.
+43,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Accelerate to follow the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+43,FOLLOW_ROUTE,REMAIN_STOPPED,TRAFFIC_LIGHT_RED,Follow the route. Remain stopped to stay behind the <OBJECT> at <DISTANCE> that is stopped because of a red traffic light. Pay attention to the walker and brake if necessary.
+43,OTHER,REMAIN_STOPPED,VEHICLE,Prepare to do a lane change. Remain stopped due to the <OBJECT> in <DISTANCE>.
+42,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Follow the route. Maintain the reduced speed to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light. Pay attention to the walker and brake if necessary.
+42,GO_AROUND,SLOW_DOWN,VEHICLE,Prepare to do a lane change. Decelerate to avoid the <OBJECT> that is crossing the road.
+41,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Turn left. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+40,OVERTAKE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to overtake the bikes on your lane. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+39,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to do a lane change. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+39,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now due to the <OBJECT> intersecting your path.
+39,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Turn right. Decelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+38,OTHER,MAINTAIN_SPEED,VEHICLE,Prepare to do a lane change. Maintain your current speed due to the <OBJECT> in <DISTANCE>.
+38,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed since you cleared the <OBJECT>.
+38,GO_AROUND,INCREASE_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Accelerate to drive through the junction.
+37,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn left. Decelerate to drive with the target speed.
+37,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Decelerate because the traffic light is green.
+37,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction as pay attention to the vehicles coming towards the junction. Pay attention to the <OBJECT> on the exit of the junction.
+36,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+36,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_RED,Return to your original route after avoiding the obstacle. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+36,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+36,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed to avoid the <OBJECT> that is crossing the road.
+36,OTHER,MAINTAIN_SPEED,VEHICLE,Prepare to do a lane change. Maintain your current speed due to the <OBJECT>.
+36,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+36,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Turn left. Maintain the reduced speed.
+36,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+35,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain the reduced speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+35,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+34,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,"Go around the construction site. Maintain the reduced speed to change to the oncoming lane, as the gap is big enough."
+34,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Prepare to do a lane change. Decelerate.
+34,GO_AROUND,MAINTAIN_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Maintain your current speed to drive through the junction.
+34,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+34,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+34,FOLLOW_ROUTE,SLOW_DOWN,NONE_OR_UNKNOWN,Follow the route. Decelerate. Pay attention to the walker and brake if necessary.
+33,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Turn right. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+33,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction. Pay attention to the walker and brake if necessary.
+33,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+32,OVERTAKE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Stay on your current (oncoming) lane to overtake the bikes on your lane. Maintain your current speed.
+32,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn left. Remain stopped since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+31,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+31,FOLLOW_ROUTE,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Follow the route. Remain stopped because the traffic light is green but pay attention to the vehicle coming towards the junction.
+31,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+31,OTHER,INCREASE_SPEED,VEHICLE,Stay on your current (oncoming) lane to steer clear of the parked vehicle. Accelerate to drive with the target speed.
+30,OVERTAKE,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to overtake the bikes on your lane. Maintain your current speed because the traffic light is green.
+30,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+30,OTHER,INCREASE_SPEED,VEHICLE,Turn left. Accelerate due to the <OBJECT> intersecting your path.
+29,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped due to the <OBJECT> intersecting your path. Pay attention to the walker and brake if necessary.
+28,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+28,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Turn right. Maintain the reduced speed.
+28,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction as . Pay attention to the <OBJECT> on the exit of the junction.
+28,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Follow the route. Maintain the reduced speed. Pay attention to the walker and brake if necessary.
+28,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn left. Remain stopped since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+28,OTHER,REMAIN_STOPPED,NONE_OR_UNKNOWN,Turn left. Remain stopped.
+28,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn right. Decelerate to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+28,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+28,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed because the other vehicles are stopped at the junction and the junction is clear.
+28,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Turn left. Maintain the reduced speed to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+27,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Prepare to do a lane change. Decelerate because the other vehicles are stopped at the junction and the junction is clear.
+27,OVERTAKE,REMAIN_STOPPED,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Remain stopped to drive according to the speed limit.
+27,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Maintain your current speed because the traffic light is green.
+27,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction. Pay attention to the walker and brake if necessary.
+27,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_RED,Turn left. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+26,OTHER,INCREASE_SPEED,VEHICLE,Prepare to do a lane change. Accelerate to drive closer to the <OBJECT> in <DISTANCE>.
+26,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the stationary <OBJECT>. Pay attention to the walker and brake if necessary.
+26,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+26,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain the reduced speed to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+26,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+25,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Turn left. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+25,FOLLOW_ROUTE,INCREASE_SPEED,PEDESTRIAN,Follow the route. Accelerate to drive through the junction as . Pay attention to the pedestrian on the exit of the junction.
+25,FOLLOW_ROUTE,MAINTAIN_SPEED,JUNCTION_NOTICE,Follow the route. Maintain your current speed to drive through the junction. Pay attention to the walker and brake if necessary.
+25,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction. Pay attention to the walker and brake if necessary.
+24,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+24,GO_AROUND,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to avoid the accident on your lane. Maintain your current speed because the traffic light is green.
+23,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Turn left. Remain stopped because the traffic light is green but pay attention to the vehicle coming towards the junction.
+23,FOLLOW_ROUTE,REMAIN_STOPPED,JUNCTION_NOTICE,Follow the route. Remain stopped since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+23,OTHER,REMAIN_STOPPED,NONE_OR_UNKNOWN,Turn left. Remain stopped to drive with the target speed.
+23,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+23,GO_AROUND,INCREASE_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Accelerate to follow the <OBJECT> in <DISTANCE>.
+23,OTHER,INCREASE_SPEED,VEHICLE,Prepare to do a lane change. Accelerate due to the <OBJECT> intersecting your path.
+22,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+22,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain your current speed to stay behind the <OBJECT>.
+22,OTHER,INCREASE_SPEED,VEHICLE,Prepare to do a lane change. Accelerate to drive closer to the <OBJECT>.
+22,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+22,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+22,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction as pay attention to the vehicle in the junction. Pay attention to the <OBJECT> on the exit of the junction.
+22,FOLLOW_ROUTE,REMAIN_STOPPED,NONE_OR_UNKNOWN,Follow the route. Remain stopped to drive according to the speed limit.
+22,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,Prepare to give way to the emergency vehicle. Decelerate to stay behind the <OBJECT>.
+21,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+21,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed due to the <OBJECT> intersecting your path.
+21,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate to drive closer to the <OBJECT>. Pay attention to the walker and brake if necessary.
+21,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+21,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+21,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+21,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_RED,Turn left. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+20,DEVIATION_DURING,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Stay on your current lane to steer clear of the parked vehicle. Decelerate to stay behind the <OBJECT>.
+20,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Accelerate to follow the <OBJECT>.
+20,GO_AROUND,SLOW_DOWN,VEHICLE,Return to your original route after avoiding the obstacle. Decelerate due to the <OBJECT>.
+20,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn left. Remain stopped since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+20,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+20,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Decelerate.
+19,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+19,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to drive closer to the stationary <OBJECT> at <DISTANCE>. Pay attention to the walker and brake if necessary.
+19,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+19,DEVIATION_DURING,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Stay on your current lane to steer clear of the parked vehicle. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+19,GO_AROUND,SLOW_DOWN,VEHICLE,Return to your original route after avoiding the obstacle. Decelerate due to the <OBJECT> in <DISTANCE>.
+19,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+19,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to drive closer to the stationary <OBJECT>.
+19,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate to drive closer to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+19,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Turn right. Maintain the reduced speed to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+19,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_RED,Turn right. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+19,OVERTAKE,SLOW_DOWN,VEHICLE,Stay on your current lane to overtake the bikes on your lane. Decelerate due to the <OBJECT>.
+18,GO_AROUND,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Maintain the reduced speed to stay behind the <OBJECT>.
+18,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+18,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to drive closer to the stationary <OBJECT> at <DISTANCE>.
+18,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_RED,Turn right. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+18,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Accelerate to follow the <OBJECT> in <DISTANCE>.
+18,OTHER,INCREASE_SPEED,PEDESTRIAN,Turn left. Accelerate to drive through the junction as the other vehicles are stopped at the junction and the junction is clear. Pay attention to the pedestrian on the exit of the junction.
+17,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+17,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Turn right. Decelerate to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+17,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN," Maintain the reduced speed to change to the neighbouring lane, as the gap is big enough."
+17,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain the reduced speed due to the <OBJECT>.
+17,GO_AROUND,INCREASE_SPEED,COLLISION_AVOIDANCE,Turn left. Accelerate to avoid a collision with the <OBJECT>.
+17,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+17,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn left. Decelerate. Pay attention to the walker and brake if necessary.
+17,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+17,OVERTAKE,SLOW_DOWN,VEHICLE,Stay on your current lane to overtake the bikes on your lane. Decelerate due to the <OBJECT> in <DISTANCE>.
+16,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Maintain the reduced speed to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+16,FOLLOW_ROUTE,REMAIN_STOPPED,JUNCTION_NOTICE,Follow the route. Remain stopped since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+16,OTHER,STOP,VEHICLE,Turn right. Stop now due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+16,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn right. Remain stopped to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+16,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Prepare to steer clear of the oncoming traffic entering your lane due to the construction cones. Maintain the reduced speed.
+16,GO_AROUND,MAINTAIN_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+16,GO_AROUND,SLOW_DOWN,VEHICLE,Prepare to avoid the vehicle that is opening its door. Decelerate to drive according to the speed limit.
+16,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn left. Remain stopped since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+16,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+16,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Return to your original route after avoiding the obstacle. Maintain the reduced speed due to the <OBJECT>.
+16,GO_AROUND,SLOW_DOWN,COLLISION_AVOIDANCE,Turn left. Decelerate to avoid a collision with the <OBJECT>.
+16,GO_AROUND,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to go around the construction site. Maintain your current speed because the traffic light is green.
+15,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain your current speed to stay behind the <OBJECT> in <DISTANCE>.
+15,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed because the other vehicles are stopped at the junction and the junction is clear.
+15,GO_AROUND,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+15,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Maintain your current speed to stay behind the <OBJECT>.
+15,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+15,OTHER,SLOW_DOWN,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Decelerate due to the <OBJECT> in <DISTANCE>.
+15,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+15,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Turn right. Maintain the reduced speed to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+15,GO_AROUND,INCREASE_SPEED,VEHICLE,Turn right. Accelerate to avoid the <OBJECT> that is crossing the road.
+14,GO_AROUND,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped to avoid a collision with the <OBJECT>.
+14,FOLLOW_ROUTE,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain your current speed to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+14,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed since you cleared the <OBJECT>.
+14,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+14,GO_AROUND,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+14,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW, Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+14,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear.
+14,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+14,OTHER,SLOW_DOWN,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Decelerate to drive according to the speed limit.
+14,DEVIATION_DURING,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to steer clear of the parked vehicle. Accelerate to follow the <OBJECT>.
+14,FOLLOW_ROUTE,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain your current speed because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+13,FOLLOW_ROUTE,MAINTAIN_SPEED,JUNCTION_NOTICE,Follow the route. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+13,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn left. Remain stopped to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear.
+13,DEVIATION_DURING,MAINTAIN_REDUCED_SPEED,VEHICLE,Stay on your current lane to steer clear of the parked vehicle. Maintain the reduced speed.
+13,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn left. Accelerate to drive with the target speed. Pay attention to the walker and brake if necessary.
+13,GO_AROUND,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Return to your original route after avoiding the obstacle. Maintain the reduced speed to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+13,OTHER,STOP,VEHICLE,Turn right. Stop now due to the <OBJECT> intersecting your path.
+13,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Return to your original route after avoiding the obstacle. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+13,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+13,GIVE_WAY,SLOW_DOWN,EMERGENCY_VEHICLE,Prepare to give way to the emergency vehicle. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+13,GO_AROUND,INCREASE_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Accelerate to follow the <OBJECT>.
+13,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Turn left. Maintain the reduced speed to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+13,FOLLOW_ROUTE,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+12,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Turn right. Remain stopped to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+12,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW, Decelerate to stay behind the <OBJECT>.
+12,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+12,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Maintain the reduced speed to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+12,GO_AROUND,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now to avoid the <OBJECT> that is crossing the road.
+12,GO_AROUND,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+12,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+12,OTHER,STOP,TRAFFIC_LIGHT_RED,Turn left. Stop now to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+12,OTHER,STOP,TRAFFIC_LIGHT_RED,Turn right. Stop now to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+12,GO_AROUND,MAINTAIN_SPEED,CONSTRUCTION,"Go around the construction site. Maintain your current speed to change to the oncoming lane, as the gap is big enough."
+11,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+11,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Turn left. Maintain your current speed to stay behind the <OBJECT> in <DISTANCE>.
+11,OTHER,SLOW_DOWN,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Decelerate due to the <OBJECT>.
+11,GO_AROUND,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate to avoid a collision with the <OBJECT>.
+11,OTHER,SLOW_DOWN,VEHICLE,Turn left. Decelerate due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+11,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn right. Decelerate to drive with the target speed.
+11,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+11,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Follow the route. Decelerate because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+10,FOLLOW_ROUTE,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain your current speed to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+10,GO_AROUND,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Maintain your current speed to drive according to the speed limit.
+10,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Turn right. Stop now to stay behind the <OBJECT> in <DISTANCE>.
+10,GO_AROUND,SLOW_DOWN,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Decelerate.
+10,GO_AROUND,SLOW_DOWN,VEHICLE,Prepare to avoid the vehicle that is opening its door. Decelerate to drive with the target speed.
+10,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction as the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the <OBJECT> on the exit of the junction.
+10,GO_AROUND,INCREASE_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+10,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Accelerate to reach the speed limit.
+10,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction as pay attention to the vehicles coming towards the junction. Pay attention to the <OBJECT> on the exit of the junction.
+10,GO_AROUND,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed to avoid the <OBJECT> that is crossing the road.
+9,OTHER,REMAIN_STOPPED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Remain stopped to drive with the target speed.
+9,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+9,GO_AROUND,REMAIN_STOPPED,VEHICLE,"Avoid the vehicle that is opening its door. Remain stopped to change to the oncoming lane, as the gap is big enough."
+9,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear.
+9,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction. Pay attention to the walker and brake if necessary.
+9,OTHER,INCREASE_SPEED,VEHICLE,Turn left. Accelerate since you cleared the <OBJECT>. Pay attention to the walker and brake if necessary.
+9,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Prepare to do a lane change. Accelerate to reach the speed limit. Pay attention to the walker and brake if necessary.
+9,GIVE_WAY,INCREASE_SPEED,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Accelerate to follow the <OBJECT>.
+9,FOLLOW_ROUTE,STOP,NONE_OR_UNKNOWN,Follow the route. Stop now to drive with the target speed.
+9,DEVIATION_DURING,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to steer clear of the parked vehicle. Accelerate to follow the <OBJECT> in <DISTANCE>.
+9,OTHER,INCREASE_SPEED,PEDESTRIAN,Turn left. Accelerate to drive through the junction as pay attention to the vehicles coming towards the junction. Pay attention to the pedestrian on the exit of the junction.
+9,GO_AROUND,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+8,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Maintain your current speed to stay behind the <OBJECT>.
+8,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Decelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+8,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed to drive closer to the stationary <OBJECT> at <DISTANCE>.
+8,GO_AROUND,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to go around the construction site. Accelerate because the traffic light is green.
+8,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+8,GO_AROUND,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to avoid the vehicle that is opening its door. Accelerate to follow the <OBJECT>.
+8,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Maintain the reduced speed to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+8,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+8,GO_AROUND,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Return to your original route after avoiding the obstacle. Remain stopped to stay behind the <OBJECT>.
+8,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Decelerate because the traffic light is green.
+8,FOLLOW_ROUTE,SLOW_DOWN,NONE_OR_UNKNOWN,Follow the route. Decelerate to drive according to the speed limit. Pay attention to the walker and brake if necessary.
+8,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Accelerate to drive through the junction. Pay attention to the walker and brake if necessary.
+8,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+8,OVERTAKE,MAINTAIN_REDUCED_SPEED,VEHICLE,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed due to the <OBJECT>.
+8,OVERTAKE,MAINTAIN_REDUCED_SPEED,VEHICLE,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed due to the <OBJECT> in <DISTANCE>.
+7,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+7,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,"Exit the parking lot. Maintain the reduced speed to change to the neighbouring lane, as the gap is big enough."
+7,DEVIATION_DURING,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to exit the parking lot. Maintain the reduced speed.
+7,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed to drive through the junction. Pay attention to the walker and brake if necessary.
+7,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+7,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed to drive closer to the stationary <OBJECT>.
+7,GO_AROUND,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Accelerate because the traffic light is green but pay attention to the vehicle coming towards the junction.
+7,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+7,FOLLOW_ROUTE,SLOW_DOWN,JUNCTION_NOTICE,Follow the route. Decelerate to drive with the target speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+7,OTHER,STOP,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Stop now to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+7,OTHER,STOP,TRAFFIC_LIGHT_RED,Prepare to do a lane change. Stop now to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+7,OTHER,SLOW_DOWN,VEHICLE,Turn left. Decelerate due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+7,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate to drive with the target speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+7,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed to drive closer to the stationary <OBJECT> at <DISTANCE>.
+7,OTHER,STOP,TRAFFIC_LIGHT_RED,Turn right. Stop now to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+7,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Maintain the reduced speed to stay behind the <OBJECT>.
+7,GO_AROUND,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_RED,Return to your original route after avoiding the obstacle. Maintain the reduced speed to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+7,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Maintain the reduced speed because the traffic light is green.
+7,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Turn left. Remain stopped because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+7,OTHER,MAINTAIN_SPEED,VEHICLE,"Steer clear of the parked vehicle. Maintain your current speed to change to the oncoming lane, as the gap is big enough."
+6,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+6,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Follow the route. Maintain the reduced speed to drive according to the speed limit. Pay attention to the walker and brake if necessary.
+6,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+6,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Stay on your current lane to avoid the accident on your lane. Decelerate because the traffic light is green.
+6,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction. Pay attention to the walker and brake if necessary.
+6,FOLLOW_ROUTE,REMAIN_STOPPED,JUNCTION_NOTICE,Follow the route. Remain stopped since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+6,OTHER,MAINTAIN_SPEED,VEHICLE,Turn right. Maintain your current speed due to the <OBJECT> in <DISTANCE>.
+6,OTHER,STOP,VEHICLE,Turn right. Stop now due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+6,GO_AROUND,INCREASE_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+6,FOLLOW_ROUTE,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Follow the route. Remain stopped because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+6,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Turn right. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+6,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate since you cleared the <OBJECT>. Pay attention to the walker and brake if necessary.
+6,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Maintain your current speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+6,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Turn right. Stop now to stay behind the <OBJECT>.
+6,OTHER,STOP,VEHICLE,Turn left. Stop now due to the <OBJECT>. Pay attention to the walker and brake if necessary.
+6,OTHER,REMAIN_STOPPED,VEHICLE,Turn left. Remain stopped since you cleared the <OBJECT>.
+6,GO_AROUND,INCREASE_SPEED,VEHICLE,Turn left. Accelerate to avoid the <OBJECT> that is crossing the road.
+6,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Accelerate to follow the <OBJECT> in <DISTANCE>.
+6,GO_AROUND,INCREASE_SPEED,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Accelerate to follow the <OBJECT>.
+6,FOLLOW_ROUTE,REMAIN_STOPPED,JUNCTION_NOTICE,Follow the route. Remain stopped since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+5,FOLLOW_ROUTE,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Follow the route. Remain stopped since you cleared the <OBJECT>.
+5,GO_AROUND,SLOW_DOWN,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Decelerate because the other vehicles are stopped at the junction and the junction is clear.
+5,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate to drive through the junction as pay attention to the vehicle in the junction. Pay attention to the <OBJECT> on the exit of the junction.
+5,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Maintain your current speed to stay behind the <OBJECT> in <DISTANCE>.
+5,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction. Pay attention to the walker and brake if necessary.
+5,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+5,OTHER,SLOW_DOWN,VEHICLE,Turn right. Decelerate since you cleared the <OBJECT>.
+5,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive through the junction. Pay attention to the walker and brake if necessary.
+5,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Stay on your current lane to go around the construction site. Decelerate to drive according to the speed limit.
+5,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_RED,Stay on your current lane to go around the construction site. Decelerate to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+5,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Prepare to do a lane change. Decelerate to drive according to the speed limit.
+5,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Prepare to do a lane change. Maintain the reduced speed to drive closer to the stationary <OBJECT> at <DISTANCE>.
+5,OTHER,SLOW_DOWN,VEHICLE,Turn left. Decelerate since you cleared the <OBJECT>.
+5,GO_AROUND,SLOW_DOWN,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Decelerate to drive according to the speed limit.
+5,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Stay on your current lane to go around the construction site. Decelerate because the traffic light is green.
+5,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Prepare to avoid the accident on your lane. Maintain the reduced speed to stay behind the <OBJECT>.
+5,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+5,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Maintain your current speed to drive through the junction. Pay attention to the walker and brake if necessary.
+5,GO_AROUND,INCREASE_SPEED,ACCIDENT,Prepare to avoid the accident on your lane. Accelerate to follow the <OBJECT>.
+5,OTHER,STOP,TRAFFIC_LIGHT_RED,Turn left. Stop now to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+5,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+4,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+4,FOLLOW_ROUTE,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Follow the route. Decelerate because the traffic light is green. Pay attention to the walker and brake if necessary.
+4,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed to drive closer to the stationary <OBJECT>.
+4,OTHER,MAINTAIN_SPEED,JUNCTION_NOTICE,Turn right. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+4,OTHER,STOP,VEHICLE,Turn left. Stop now due to the <OBJECT> intersecting your path.
+4,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+4,FOLLOW_ROUTE,STOP,TRAFFIC_LIGHT_RED,Follow the route. Stop now to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light. Pay attention to the walker and brake if necessary.
+4,FOLLOW_ROUTE,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Follow the route. Remain stopped because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+4,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed because the other vehicles are stopped at the junction and the junction is clear.
+4,GO_AROUND,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to avoid the accident on your lane. Maintain your current speed because the traffic light is green.
+4,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Maintain the reduced speed to drive according to the speed limit.
+4,OTHER,INCREASE_SPEED,NONE_OR_UNKNOWN,Turn left. Accelerate to reach the speed limit. Pay attention to the walker and brake if necessary.
+4,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+4,OTHER,INCREASE_SPEED,PEDESTRIAN,Turn left. Accelerate to drive through the junction as the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the pedestrian on the exit of the junction.
+4,OTHER,STOP,VEHICLE,Turn left. Stop now due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+4,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+4,GO_AROUND,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+4,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Stop now to stay behind the <OBJECT>.
+4,OVERTAKE,SLOW_DOWN,NONE_OR_UNKNOWN,Stay on your current (oncoming) lane to overtake the bikes on your lane. Decelerate to drive with the target speed.
+4,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Turn left. Maintain the reduced speed to drive according to the speed limit.
+4,GO_AROUND,SLOW_DOWN,COLLISION_AVOIDANCE,Prepare to steer clear of the parked vehicle. Decelerate to avoid a collision with the <OBJECT>.
+4,OTHER,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Accelerate because the traffic light is green.
+4,GO_AROUND,STOP,VEHICLE,Turn right. Stop now to avoid the <OBJECT> that is crossing the road.
+4,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Turn left. Decelerate because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+4,FOLLOW_ROUTE,REMAIN_STOPPED,NONE_OR_UNKNOWN,Follow the route. Remain stopped.
+4,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate since you cleared the <OBJECT>. Pay attention to the walker and brake if necessary.
+3,OTHER,MAINTAIN_SPEED,VEHICLE,Turn right. Maintain your current speed due to the <OBJECT>.
+3,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain your current speed to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+3,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn left. Decelerate to drive with the target speed. Pay attention to the walker and brake if necessary.
+3,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+3,OVERTAKE,STOP,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Stop now to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+3,OTHER,MAINTAIN_SPEED,NONE_OR_UNKNOWN, Maintain your current speed.
+3,GO_AROUND,MAINTAIN_SPEED,VEHICLE,Return to your original route after avoiding the obstacle. Maintain your current speed due to the <OBJECT> in <DISTANCE>.
+3,GO_AROUND,MAINTAIN_REDUCED_SPEED,ACCIDENT,Prepare to avoid the accident on your lane. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+3,GO_AROUND,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Accelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+3,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicle in the junction. Pay attention to the walker and brake if necessary.
+3,OTHER,INCREASE_SPEED,JUNCTION_NOTICE, Accelerate to drive through the junction.
+3,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn right. Remain stopped since you cleared the <OBJECT> but pay attention to the vehicle in the junction.
+3,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn left. Maintain the reduced speed since you cleared the <OBJECT>. Pay attention to the walker and brake if necessary.
+3,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate to drive closer to the stationary <OBJECT> at <DISTANCE>.
+3,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn left. Remain stopped to drive with the target speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+3,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Maintain the reduced speed to drive according to the speed limit.
+3,OTHER,INCREASE_SPEED,VEHICLE,Turn left. Accelerate to drive closer to the stationary <OBJECT>.
+3,GO_AROUND,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to avoid the accident on your lane. Maintain the reduced speed because the traffic light is green.
+3,GO_AROUND,INCREASE_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to avoid the accident on your lane. Accelerate because the traffic light is green.
+3,OVERTAKE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed because the traffic light is green.
+3,GIVE_WAY,INCREASE_SPEED,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Accelerate to follow the <OBJECT> in <DISTANCE>.
+3,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Remain stopped to stay behind the <OBJECT> in <DISTANCE>.
+3,OTHER,INCREASE_SPEED,PEDESTRIAN,Turn left. Accelerate to drive through the junction as . Pay attention to the pedestrian on the exit of the junction.
+3,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+3,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Turn right. Maintain the reduced speed to drive according to the speed limit.
+3,OTHER,REMAIN_STOPPED,NONE_OR_UNKNOWN,Turn right. Remain stopped to drive according to the speed limit.
+3,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn right. Decelerate to drive according to the speed limit.
+3,OVERTAKE,INCREASE_SPEED,JUNCTION_NOTICE,Stay on your current lane to overtake the bikes on your lane. Accelerate to drive through the junction.
+3,FOLLOW_ROUTE,REMAIN_STOPPED,JUNCTION_NOTICE,Follow the route. Remain stopped because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+3,GO_AROUND,SLOW_DOWN,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Decelerate to stay behind the <OBJECT>.
+3,OTHER,INCREASE_SPEED,VEHICLE,Prepare to do a lane change. Accelerate to drive closer to the stationary <OBJECT> at <DISTANCE>.
+3,GO_AROUND,INCREASE_SPEED,ACCIDENT,Prepare to avoid the accident on your lane. Accelerate to follow the <OBJECT> in <DISTANCE>.
+3,OTHER,INCREASE_SPEED,VEHICLE,Prepare to do a lane change. Accelerate to drive closer to the stationary <OBJECT>.
+3,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Maintain the reduced speed to stay behind the <OBJECT>.
+3,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain the reduced speed because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+2,OTHER,STOP,TRAFFIC_LIGHT_GREEN,Turn left. Stop now because the traffic light is green but pay attention to the vehicle coming towards the junction.
+2,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Prepare to do a lane change. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the junction is clear.
+2,FOLLOW_ROUTE,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain your current speed because the traffic light is green. Pay attention to the walker and brake if necessary.
+2,OTHER,SLOW_DOWN,CONSTRUCTION,Prepare to steer clear of the oncoming traffic entering your lane due to the construction cones. Decelerate to stay behind the <OBJECT>.
+2,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Maintain the reduced speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+2,OVERTAKE,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Maintain your current speed to stay behind the <OBJECT> in <DISTANCE>.
+2,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Turn left. Maintain the reduced speed. Pay attention to the walker and brake if necessary.
+2,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Turn left. Remain stopped because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+2,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW, Maintain the reduced speed to stay behind the <OBJECT>.
+2,OVERTAKE,STOP,TRAFFIC_LIGHT_RED,Stay on your current lane to overtake the bikes on your lane. Stop now to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+2,GO_AROUND,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Maintain your current speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+2,GO_AROUND,INCREASE_SPEED,ACCIDENT,Stay on your current lane to avoid the accident on your lane. Accelerate to reach the speed limit.
+2,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed to drive through the junction. Pay attention to the walker and brake if necessary.
+2,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,"Exit the parking lot. Decelerate to change to the neighbouring lane, as the gap is big enough."
+2,GO_AROUND,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Maintain the reduced speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+2,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW, Accelerate to follow the <OBJECT> in <DISTANCE>.
+2,OTHER,REMAIN_STOPPED,VEHICLE,"Steer clear of the parked vehicle. Remain stopped to change to the oncoming lane, as the gap is big enough."
+2,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Maintain your current speed because the traffic light is green but pay attention to the vehicle coming towards the junction.
+2,GO_AROUND,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Prepare to avoid the vehicle that is opening its door. Accelerate to follow the <OBJECT> in <DISTANCE>.
+2,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn right. Decelerate. Pay attention to the walker and brake if necessary.
+2,OTHER,STOP,NONE_OR_UNKNOWN,Turn left. Stop now to drive with the target speed.
+2,OTHER,STOP,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Stop now to stay behind the <OBJECT>.
+2,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn left. Remain stopped since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction. Pay attention to the walker and brake if necessary.
+2,OVERTAKE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,"Overtake the bikes on your lane. Maintain your current speed to change to the oncoming lane, as the gap is big enough."
+2,GO_AROUND,REMAIN_STOPPED,NONE_OR_UNKNOWN,Return to your original route after avoiding the obstacle. Remain stopped to drive according to the speed limit.
+2,OTHER,REMAIN_STOPPED,NONE_OR_UNKNOWN,Prepare to do a lane change. Remain stopped to drive according to the speed limit.
+2,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Prepare to do a lane change. Maintain the reduced speed to drive according to the speed limit.
+2,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate to drive with the target speed because the other vehicles are stopped at the junction and the junction is clear.
+2,OTHER,REMAIN_STOPPED,LEAD_VEHICLE_FOLLOW,Prepare to steer clear of the parked vehicle. Remain stopped to stay behind the <OBJECT>.
+2,GIVE_WAY,INCREASE_SPEED,EMERGENCY_VEHICLE,Prepare to give way to the emergency vehicle. Accelerate to drive with the target speed.
+2,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Prepare to do a lane change. Decelerate because the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+2,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Turn right. Remain stopped because the traffic light is green but pay attention to the vehicle coming towards the junction.
+2,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_RED,Stay on your current lane to go around the construction site. Decelerate to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+2,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Stop now to stay behind the <OBJECT> in <DISTANCE>.
+2,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+2,OTHER,SLOW_DOWN,CONSTRUCTION,Prepare to steer clear of the oncoming traffic entering your lane due to the construction cones. Decelerate to stay behind the <OBJECT> in <DISTANCE>.
+2,GO_AROUND,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Return to your original route after avoiding the obstacle. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+2,OTHER,MAINTAIN_SPEED,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Maintain your current speed because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+2,OTHER,STOP,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Stop now to stay behind the <OBJECT> in <DISTANCE>.
+2,OTHER,MAINTAIN_REDUCED_SPEED,VEHICLE,Turn right. Maintain the reduced speed since you cleared the <OBJECT>. Pay attention to the walker and brake if necessary.
+2,GO_AROUND,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to avoid a collision with the <OBJECT>.
+2,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Stay on your current lane to go around the construction site. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+2,OTHER,REMAIN_STOPPED,NONE_OR_UNKNOWN,Turn left. Remain stopped to drive with the target speed. Pay attention to the walker and brake if necessary.
+2,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn right. Accelerate to drive with the target speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+2,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+2,GIVE_WAY,MAINTAIN_REDUCED_SPEED,EMERGENCY_VEHICLE,Stay on your current lane to give way to the emergency vehicle. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+2,FOLLOW_ROUTE,STOP,TRAFFIC_LIGHT_RED,Follow the route. Stop now to stay behind the <OBJECT> that is slowing down because of a red traffic light. Pay attention to the walker and brake if necessary.
+2,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn left. Decelerate to drive according to the speed limit.
+2,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current (oncoming) lane to steer clear of the parked vehicle. Accelerate to follow the <OBJECT> in <DISTANCE>.
+2,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Stay on your current (oncoming) lane to go around the construction site. Maintain the reduced speed to stay behind the <OBJECT>.
+2,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction. Pay attention to the walker and brake if necessary.
+2,OTHER,INCREASE_SPEED,PEDESTRIAN,Turn left. Accelerate to drive through the junction as pay attention to the vehicle in the junction. Pay attention to the pedestrian on the exit of the junction.
+1,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn right. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+1,OTHER,INCREASE_SPEED,JUNCTION_NOTICE,Turn left. Accelerate to drive through the junction. Pay attention to the walker and brake if necessary.
+1,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN, Decelerate to drive with the target speed.
+1,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Follow the route. Maintain the reduced speed because the traffic light is green. Pay attention to the walker and brake if necessary.
+1,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate because the other vehicles are stopped at the junction and the vehicle in the junction is moving away. Pay attention to the walker and brake if necessary.
+1,OTHER,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW, Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+1,OTHER,MAINTAIN_SPEED,LEAD_VEHICLE_FOLLOW,Turn right. Maintain your current speed to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+1,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain the reduced speed because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+1,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Prepare to do a lane change. Decelerate. Pay attention to the walker and brake if necessary.
+1,OTHER,MAINTAIN_SPEED,VEHICLE,Turn left. Maintain your current speed due to the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+1,GO_AROUND,REMAIN_STOPPED,COLLISION_AVOIDANCE,Turn left. Remain stopped to avoid a collision with the <OBJECT>. Pay attention to the walker and brake if necessary.
+1,OTHER,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW, Accelerate to follow the <OBJECT>.
+1,GO_AROUND,REMAIN_STOPPED,ACCIDENT,"Avoid the accident on your lane. Remain stopped to change to the oncoming lane, as the gap is big enough."
+1,GO_AROUND,MAINTAIN_SPEED,JUNCTION_NOTICE,Return to your original route after avoiding the obstacle. Maintain your current speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,OTHER,MAINTAIN_REDUCED_SPEED,TRAFFIC_LIGHT_GREEN,Turn left. Maintain the reduced speed because the traffic light is green but pay attention to the vehicle coming towards the junction. Pay attention to the walker and brake if necessary.
+1,OTHER,SLOW_DOWN,NONE_OR_UNKNOWN,Turn right. Decelerate to drive with the target speed. Pay attention to the walker and brake if necessary.
+1,OVERTAKE,STOP,LEAD_VEHICLE_FOLLOW,Stay on your current lane to overtake the bikes on your lane. Stop now to stay behind the <OBJECT>.
+1,FOLLOW_ROUTE,STOP,LEAD_VEHICLE_FOLLOW,Follow the route. Stop now to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+1,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Turn left. Stop now to stay behind the <OBJECT> in <DISTANCE>. Pay attention to the walker and brake if necessary.
+1,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Prepare to do a lane change. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,FOLLOW_ROUTE,MAINTAIN_SPEED,TRAFFIC_LIGHT_RED,Follow the route. Maintain your current speed to stay behind the <OBJECT> that is slowing down because of a red traffic light.
+1,OTHER,STOP,JUNCTION_NOTICE,Turn left. Stop now to drive through the junction.
+1,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn left. Decelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction. Pay attention to the walker and brake if necessary.
+1,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn left. Maintain the reduced speed since you cleared the <OBJECT> but pay attention to the vehicle in the junction. Pay attention to the walker and brake if necessary.
+1,GO_AROUND,INCREASE_SPEED,VEHICLE,Prepare to go around the <OBJECT>. Accelerate to reach the speed limit.
+1,OTHER,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Prepare to do a lane change. Decelerate to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+1,OTHER,STOP,VEHICLE,Prepare to do a lane change. Stop now due to the <OBJECT> intersecting your path.
+1,OTHER,INCREASE_SPEED,VEHICLE,Turn right. Accelerate to drive closer to the stationary <OBJECT>.
+1,FOLLOW_ROUTE,MAINTAIN_SPEED,JUNCTION_NOTICE,Follow the route. Maintain your current speed because the other vehicles are stopped at the junction and the junction is clear.
+1,GO_AROUND,STOP,CONSTRUCTION,Stay on your current lane to go around the construction site. Stop now to stay behind the <OBJECT> in <DISTANCE>.
+1,FOLLOW_ROUTE,REMAIN_STOPPED,NONE_OR_UNKNOWN,Follow the route. Remain stopped to drive according to the speed limit. Pay attention to the walker and brake if necessary.
+1,FOLLOW_ROUTE,STOP,TRAFFIC_LIGHT_GREEN,Follow the route. Stop now because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,GO_AROUND,MAINTAIN_REDUCED_SPEED,COLLISION_AVOIDANCE,Turn left. Maintain the reduced speed to avoid a collision with the <OBJECT>.
+1,GO_AROUND,STOP,TRAFFIC_LIGHT_RED,Return to your original route after avoiding the obstacle. Stop now to stay behind the <OBJECT> at <DISTANCE> that is slowing down because of a red traffic light.
+1,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction. Pay attention to the walker and brake if necessary.
+1,DEVIATION_DURING,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to steer clear of the parked vehicle. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+1,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Prepare to do a lane change. Decelerate because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,GO_AROUND,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Prepare to avoid the accident on your lane. Decelerate because the traffic light is green.
+1,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN,Turn right. Maintain the reduced speed. Pay attention to the walker and brake if necessary.
+1,OTHER,MAINTAIN_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain your current speed to drive according to the speed limit.
+1,GO_AROUND,REMAIN_STOPPED,COLLISION_AVOIDANCE,Turn right. Remain stopped to avoid a collision with the <OBJECT>.
+1,OTHER,REMAIN_STOPPED,NONE_OR_UNKNOWN,Turn right. Remain stopped to drive with the target speed.
+1,OTHER,STOP,LEAD_VEHICLE_FOLLOW,Turn left. Stop now to stay behind the <OBJECT>. Pay attention to the walker and brake if necessary.
+1,OTHER,SLOW_DOWN,TRAFFIC_LIGHT_GREEN,Turn right. Decelerate because the traffic light is green and the other vehicles are stopped at the junction and the junction is clear.
+1,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Maintain the reduced speed to drive closer to the stationary <OBJECT> at <DISTANCE>. Pay attention to the walker and brake if necessary.
+1,GO_AROUND,SLOW_DOWN,LEAD_VEHICLE_FOLLOW,Follow the route. Decelerate to avoid a collision with the <OBJECT>. Pay attention to the walker and brake if necessary.
+1,OVERTAKE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Stay on your current lane to overtake the bikes on your lane. Maintain the reduced speed to drive through the junction.
+1,GIVE_WAY,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Stay on your current lane to give way to the emergency vehicle. Maintain the reduced speed to drive through the junction because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,OTHER,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Shift a bit to the right to make space for the traffic that invades the lane because of the traffic cones. Maintain the reduced speed since you cleared the <OBJECT>.
+1,FOLLOW_ROUTE,INCREASE_SPEED,LEAD_VEHICLE_FOLLOW,Follow the route. Accelerate due to the <OBJECT> intersecting your path. Pay attention to the walker and brake if necessary.
+1,OTHER,REMAIN_STOPPED,JUNCTION_NOTICE,Turn right. Remain stopped since you cleared the <OBJECT> but pay attention to the vehicles coming towards the junction.
+1,OTHER,SLOW_DOWN,JUNCTION_NOTICE,Turn right. Decelerate since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+1,OTHER,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Turn right. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear.
+1,GO_AROUND,STOP,VEHICLE,"Avoid the vehicle that is opening its door. Stop now to change to the oncoming lane, as the gap is big enough."
+1,FOLLOW_ROUTE,MAINTAIN_REDUCED_SPEED,JUNCTION_NOTICE,Follow the route. Maintain the reduced speed since you cleared the <OBJECT> and the other vehicles are stopped at the junction and the junction is clear. Pay attention to the walker and brake if necessary.
+1,FOLLOW_ROUTE,INCREASE_SPEED,JUNCTION_NOTICE,Follow the route. Accelerate since you cleared the <OBJECT> but pay attention to the vehicle in the junction. Pay attention to the walker and brake if necessary.
+1,FOLLOW_ROUTE,REMAIN_STOPPED,JUNCTION_NOTICE,Follow the route. Remain stopped because the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,OVERTAKE,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Stay on your current lane to overtake the bikes on your lane. Maintain your current speed to drive according to the speed limit.
+1,GO_AROUND,MAINTAIN_REDUCED_SPEED,CONSTRUCTION,Prepare to go around the construction site. Maintain the reduced speed to stay behind the <OBJECT> in <DISTANCE>.
+1,DEVIATION_DURING,MAINTAIN_REDUCED_SPEED,LEAD_VEHICLE_FOLLOW,Stay on your current lane to steer clear of the parked vehicle. Maintain the reduced speed to stay behind the <OBJECT>.
+1,GO_AROUND,STOP,COLLISION_AVOIDANCE,Turn right. Stop now to avoid a collision with the <OBJECT>.
+1,OTHER,REMAIN_STOPPED,TRAFFIC_LIGHT_GREEN,Turn right. Remain stopped because the traffic light is green and the other vehicles are stopped at the junction and the vehicle in the junction is moving away.
+1,OTHER,INCREASE_SPEED,VEHICLE,Turn left. Accelerate to drive closer to the stationary <OBJECT> at <DISTANCE>.
+1,GO_AROUND,STOP,CONSTRUCTION,Stay on your current lane to go around the construction site. Stop now to stay behind the <OBJECT>.
+1,GO_AROUND,STOP,COLLISION_AVOIDANCE,Turn left. Stop now to avoid a collision with the <OBJECT>.
+1,GO_AROUND,MAINTAIN_SPEED,VEHICLE,Return to your original route after avoiding the obstacle. Maintain your current speed due to the <OBJECT>.
+1,OTHER,MAINTAIN_REDUCED_SPEED,NONE_OR_UNKNOWN, Maintain the reduced speed.
+1,FOLLOW_ROUTE,REMAIN_STOPPED,JUNCTION_NOTICE,Follow the route. Remain stopped because the other vehicles are stopped at the junction and the junction is clear.
+1,FOLLOW_ROUTE,INCREASE_SPEED,PEDESTRIAN,Follow the route. Accelerate to drive through the junction as pay attention to the vehicles coming towards the junction. Pay attention to the pedestrian on the exit of the junction.
+1,OTHER,MAINTAIN_SPEED,NONE_OR_UNKNOWN,Prepare to do a lane change. Maintain your current speed to drive according to the speed limit.
+1,OTHER,REMAIN_STOPPED,VEHICLE,Prepare to steer clear of the parked vehicle. Remain stopped to drive with the target speed.

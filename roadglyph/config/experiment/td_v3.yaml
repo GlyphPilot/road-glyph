@@ -1,0 +1,57 @@
+# @package _global_
+# RoadGlyphModelV3:
+#   - V1 (WP64, ACM, warmup) unchanged
+#   - smoothness loss (2nd-order finite difference) added for speed_wps + route_wps
+#   - no prev_route / consistency loss
+defaults:
+  - /data_module: td_no_buckets
+  - /model/vision_model: internvit
+
+model:
+  _target_: roadglyph.models.road_glyph_v3.RoadGlyphModelV3
+  lr: 3e-5
+  vision_lr: 3e-5
+  hidden_dim: 512
+  pool_type: mean
+  decoder_type: mlp
+  use_film: true
+  predict_phase: false
+  predict_route_as_wps: true
+  num_route_wps: 64
+  route_wp_loss_weight: 0.5
+  route_wp_loss_warmup_epochs: 3
+  speed_wps_mode: "2d"
+  use_prev_action_id: false
+  use_gt_conditioning: true
+  gt_ctx_ratio: 0.3
+  gt_lat_ratio: 0.2
+  gt_lon_ratio: 0.3
+  lon_action_weights: [0.3, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  smoothness_loss_weight: 0.1
+  route_smoothness_loss_weight: 0.1
+  vision_model:
+    downsample_feature_grid_factor: 2
+
+data_module:
+  data_path: /path/to/simlingo_dataset   # TODO: set to your dataset path
+  bucket_path: /path/to/simlingo_dataset # TODO: set to your dataset path
+  batch_size: 8
+  num_workers: 4
+  encoder: internvit
+  route_as: target_point
+  hist_len: 1
+  cut_bottom_quarter: false
+  use_global_img: false
+  img_shift_augmentation: true
+  img_shift_augmentation_prob: 0.5
+  image_enhancing: true
+  use_prev_action_id: false
+  num_route_points: 64
+
+max_epochs: 20
+seed: 42
+gpus: 8
+val_every_n_epochs: 2
+debug: false
+wandb_project: roadglyph
+name: td_v3_smooth_seed42
